@@ -4,7 +4,6 @@ import org.junit.Test;
 
 
 public class TestVendingMachine {
-
     Tea tea = new Tea("ice", "red");
     Coffee coffee = new Coffee("ice", "mocha");
 

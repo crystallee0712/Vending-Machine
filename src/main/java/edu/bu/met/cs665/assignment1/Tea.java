@@ -9,7 +9,6 @@ import org.apache.log4j.PropertyConfigurator;
  * @author Hui Li
  *
  */
-
 // Tea is a type of drink, so this Tea class inherits from Drink class
 public class Tea extends Drink{
 

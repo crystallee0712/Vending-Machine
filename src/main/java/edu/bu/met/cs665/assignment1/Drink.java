@@ -11,7 +11,6 @@ abstract class Drink {
 
     public Drink(String iceOrHot) {
         this.iceOrHot = iceOrHot;
-
     }
 
     public String getIceOrHot() {

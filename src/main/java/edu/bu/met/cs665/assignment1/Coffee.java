@@ -9,7 +9,6 @@ import org.apache.log4j.PropertyConfigurator;
  * @author Hui Li
  *
  */
-
 // Coffee is a type of drink, so this Coffee class inherits from Drink class, also implements Condiments interface when the coffee is hot
 public class Coffee extends Drink implements Condiments {
     private String coffeeType;
