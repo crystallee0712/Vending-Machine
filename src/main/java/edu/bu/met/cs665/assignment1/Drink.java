@@ -5,7 +5,7 @@ import org.apache.log4j.PropertyConfigurator;
 
 abstract class Drink {
 
-    private static Logger logger = Logger.getLogger(Drink.class);
+
 
     private String iceOrHot;
 
@@ -22,7 +22,7 @@ abstract class Drink {
     public void setIceOrHot(String iceOrHot) {
         this.iceOrHot = iceOrHot;
     }
-
+    private static Logger logger = Logger.getLogger(Drink.class);
 
     public void initializing(){
         PropertyConfigurator.configure("log4j.properties");
@@ -42,4 +42,5 @@ abstract class Drink {
         logger.info("---------------------------------------------------------------");
         initializing();
     }
+
 }
