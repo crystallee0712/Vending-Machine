@@ -64,7 +64,7 @@ public class Coffee extends Drink implements Condiments {
 // Only hot coffee can add condiments, so check if the flag is 1, if not, customers cannot add condiments to the coffee.
     @Override
     public void addingCondiments(int milkUnit, int sugarUnit) {
-        PropertyConfigurator.configure("log4j.properties");
+       // PropertyConfigurator.configure("log4j.properties");
         if(flag == 1) {
             if (getIceOrHot().equals("hot")) {
                 logger.info("You can add condiments for your hot coffee!");
